@@ -1,3 +1,5 @@
+; To find maximum value for an array of 10 8-bit numbers
+
 .model tiny
 .186
 .data
@@ -19,5 +21,6 @@ result db 1 dup(?)
 				jnz loop1
 		lea si,result
 		mov [si],bl
-	int 21
+		
+		int 21
 end
