@@ -21,6 +21,3 @@ result db 1 dup(?)
 		mov [si],bl
 	int 21
 end
-
-mov ax,10h
-mov bx,20h
